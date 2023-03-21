@@ -1,0 +1,1 @@
+import{m as u,r as t}from"./index.e5192922.js";const p=u("survey",()=>{const r=t(!1),o=e=>{r.value=e},n=t(!1),l=e=>{n.value=e},s=t(null);return{surveyCompleted:r,setSurveyCompleted:o,processing:n,setProcessing:l,experimentId:s,setExperimentId:e=>{s.value=e},clearExperimentId:()=>{s.value=null}}});export{p as u};
