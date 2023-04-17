@@ -1,0 +1,1 @@
+import{v as n,y as s,l as o}from"./index.3ed58387.js";const c=n("survey",()=>{const r=s({}),e=o(null);return{completedSurveys:r,experimentId:e,setExperimentId:t=>{e.value=t},clearExperimentId:()=>{e.value=null}}});export{c as u};
