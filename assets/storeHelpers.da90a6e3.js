@@ -1,0 +1,1 @@
+import{G as o}from"./index.911cae79.js";function l(i){const n=o({}),c=o({});return{getFn:e=>n[e],cacheFn:async(e,r=!1)=>{const s=c[e];if(s)if(r)await s;else return s;let t=n[e];if(!t||r){const a=i(e);c[e]=a;try{t=await a,n[e]=t}finally{delete c[e]}}return t}}}export{l as u};
