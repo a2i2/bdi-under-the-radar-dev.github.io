@@ -1,0 +1,1 @@
+import{B as n,G as s,n as o}from"./index.fcbe8965.js";const l=n("survey",()=>{const r=s({}),e=o(null);return{completedSurveys:r,experimentId:e,setExperimentId:t=>{e.value=t},clearExperimentId:()=>{e.value=null}}});export{l as u};
